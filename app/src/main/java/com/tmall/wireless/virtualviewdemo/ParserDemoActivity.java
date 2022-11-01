@@ -25,9 +25,6 @@
 package com.tmall.wireless.virtualviewdemo;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -36,18 +33,16 @@ import java.io.InputStreamReader;
 import android.app.Activity;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.util.Log;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.libra.expr.compiler.api.ViewCompilerApi;
-import com.libra.virtualview.compiler.ViewCompiler;
 import com.libra.virtualview.compiler.config.ConfigManager;
-import com.libra.virtualview.compiler.config.LocalConfigLoader;
 import com.tmall.wireless.vaf.virtualview.core.IContainer;
 import com.tmall.wireless.vaf.virtualview.core.Layout;
 import org.json.JSONException;

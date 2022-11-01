@@ -25,9 +25,9 @@
 package com.tmall.wireless.vaf.virtualview.layout;
 
 import android.graphics.drawable.Drawable;
-import android.support.annotation.IntDef;
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewCompat;
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
+import androidx.core.view.ViewCompat;
 import android.util.SparseIntArray;
 import android.view.View;
 

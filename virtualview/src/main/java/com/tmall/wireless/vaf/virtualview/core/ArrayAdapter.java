@@ -27,7 +27,7 @@ package com.tmall.wireless.vaf.virtualview.core;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import android.support.v4.util.SparseArrayCompat;
+import androidx.collection.SparseArrayCompat;
 import android.util.Log;
 import android.view.View;
 

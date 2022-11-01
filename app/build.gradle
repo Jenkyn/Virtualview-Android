@@ -27,12 +27,12 @@ plugins {
 }
 
 android {
-    compileSdk 28
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.tmall.wireless.virtualviewdemo"
         minSdk 14
-        targetSdk 28
+        targetSdk 31
         versionCode 1
         versionName "1.0"
     }
@@ -48,16 +48,16 @@ android {
 
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation project(':virtualview')
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     implementation 'com.squareup.picasso:picasso:2.5.2'
     compileOnly('com.alibaba.android:virtual-common:1.0.11') {
         changing = true
     }
-    compileOnly('com.alibaba.android:virtual-compiler:1.0.10') {
+    compileOnly('com.alibaba.android:virtual-compiler:1.0.11') {
         exclude group: 'com.alibaba.android', module: 'virtual-common'
         exclude group: 'com.libra.virtualview'
         exclude group: 'xmlpull', module: 'xmlpull'
@@ -65,6 +65,6 @@ dependencies {
         changing = true
     }
 
-    implementation 'com.google.code.gson:gson:2.8.2'
-    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
 }

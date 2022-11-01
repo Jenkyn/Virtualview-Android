@@ -3,7 +3,7 @@ package com.tmall.wireless.virtualviewdemo.preview;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
@@ -27,9 +27,6 @@ import com.tmall.wireless.vaf.virtualview.event.IEventProcessor;
 import com.tmall.wireless.virtualviewdemo.R;
 import com.tmall.wireless.virtualviewdemo.VirtualViewApplication;
 import com.tmall.wireless.virtualviewdemo.preview.util.HttpUtil;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.IOException;
 import java.util.ArrayList;

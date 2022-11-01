@@ -37,8 +37,8 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -59,7 +59,7 @@ import com.tmall.wireless.vaf.virtualview.view.image.ImageBase;
 import com.tmall.wireless.virtualviewdemo.custom.ClickProcessorImpl;
 import com.tmall.wireless.virtualviewdemo.custom.ExposureProcessorImpl;
 import com.tmall.wireless.virtualviewdemo.preview.PreviewActivity;
-import com.tmall.wireless.virtualviewdemo.preview.util.HttpUtil;
+
 import org.json.JSONObject;
 
 /**
